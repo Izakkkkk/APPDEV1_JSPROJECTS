@@ -1,0 +1,93 @@
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+.quote-generator-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+h1 {
+  margin: 20px;
+  font-size: 3rem;
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+
+.quote-display {
+  width: 300px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  transition: background-color 1s ease;
+  background-color: #f9f9f9;
+}
+
+.quote-display p {
+  font-size: 1.5rem;
+  color: black;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 600px; /* Ensures buttons fit nicely */
+  margin-top: 10px;
+  padding-top: 50px;
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  background-color: rgb(210, 211, 211);
+  border: none;
+  border-radius: 15px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: rgb(190, 191, 191);
+  cursor: pointer;
+  color: rgb(46, 46, 46);
+}
+
+.previous-quotes {
+  margin-top: 20px;
+}
+
+.scrollable-container {
+  max-height: 165px; 
+  overflow-y: auto;  
+  border: 1px solid #ccc; 
+  padding: 10px; 
+  border-radius: 5px; 
+  background-color: #f9f9f9; 
+
+}
+
+ul {
+  list-style-type: none; 
+  padding: 0; 
+  margin: 0; 
+
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  text-align: center;
+}

@@ -1,0 +1,125 @@
+/* Full page setup with centered card */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif; /* Custom font for modern look */
+    background: linear-gradient(135deg, #6b9ac4, #b3cce9); /* Soft gradient background */
+    height: 100vh; /* Ensure body takes up full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height for centering */
+    width: 100vw; /* Full viewport width */
+    padding: 20px; /* Add padding around the container */
+    box-sizing: border-box;
+}
+
+.profile-card {
+    background-color: rgba(255, 255, 255, 0.95); /* Slightly transparent white background */
+    border-radius: 50px; /* Rounded corners */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Softer, more prominent shadow */
+    padding: 60px; /* Padding for better spacing */
+    width: 600px; /* Slightly larger width for the card */
+    max-width: 90vw; /* Ensure responsiveness on smaller screens */
+    max-height: 550px; /* Set a maximum height */
+    overflow-y: auto; /* Enable vertical scrolling if content overflows */
+    text-align: center;
+    border: 5px solid #00bfff; /* Neon blue border */
+    position: relative;
+    box-sizing: border-box; /* Ensure padding and border are included in width */
+    background-image: radial-gradient(circle at 50% 0%, rgba(0, 191, 255, 0.1), transparent); /* Subtle radial gradient */
+}
+
+.profile-image-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    width: 160px; /* Adjust width */
+    height: 160px;
+    border-radius: 50%; /* Circular image */
+    object-fit: cover;
+    border: 5px solid #00bfff; /* Neon blue border around the image */
+    transition: transform 0.3s ease-in-out; /* Add smooth hover effect */
+}
+
+.profile-image:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
+}
+
+.profile-info {
+    margin-top: 10px;
+}
+
+.profile-info h4 {
+    color: #00bfff; /* Neon blue headings */
+    margin-bottom: 8px;
+    font-size: 1.2em; /* Slightly larger font for headings */
+}
+
+.profile-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.profile-info li {
+    margin-bottom: 5px;
+    font-size: 1em;
+}
+
+.skills {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contact-info, .social-media-links {
+    margin-top: 20px;
+    text-align: left; /* Align text to the left */
+}
+
+.contact-info, .social-media-links {
+    margin-bottom: 20px; /* Spacing between sections */
+}
+
+.contact-info p, .social-media-links a, .skills li {
+    color: #333; /* Dark gray text color */
+    font-size: 1em;
+}
+
+/* Add hover effects to social media links */
+.social-media-links a {
+    color: #00bfff;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-media-links a:hover {
+    color: #007acc; /* Darker blue on hover */
+}
+
+/* Styling for the header */
+.header {
+    background: #505050; /* Dark gray background for the header */
+    color: white;
+    padding: 20px; /* Adjust padding */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure header stays on top */
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: 700;
+}
