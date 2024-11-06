@@ -1,0 +1,85 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.app-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: left;
+}
+
+
+h1 {
+  font-size: 2em;
+  margin: 20px 0;
+}
+
+.footer {
+  font-size: 0.9em;
+  margin: 20px 0;
+  text-align: center;
+}
+
+
+.identification {
+  text-align: left;
+  margin: 15px 0;
+  line-height: 1.6;
+}
+
+.paragraph {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.counter {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.function {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+button {
+  margin: 5px;
+  padding: 8px 16px;
+  font-size: 1em;
+}
+
+input[type="text"] {
+  padding: 8px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+.fruit-item {
+  margin: 10px 0;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+}
+
+.fruit-item p {
+  margin: 5px 0;
+}
