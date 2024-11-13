@@ -1,0 +1,62 @@
+* {
+  margin: auto;
+}
+.App {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+}
+
+.item-list {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.item {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.checkout {
+  margin-top: 20px;
+}
+
+.checkout input {
+  padding: 8px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.receipt {
+  margin-top: 30px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.receipt h2 {
+  text-align: center;
+}
+
+.receipt ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
