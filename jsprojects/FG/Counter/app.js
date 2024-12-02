@@ -16,7 +16,7 @@ btns.forEach((btn) =>{
         }
         else if(styles.contains('increase')){//increases by 1
             count++
-        }else if(styles.contains('increaseFive')){//increases by 5
+        } else if (styles.contains('increaseFive')) {//increases by 5
             count += 5
         }else if(styles.contains('random'))//random number
             count = Math.floor(Math.random() * 281) - 100
